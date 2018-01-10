@@ -2,7 +2,7 @@ The CHAT-INFO message, is written by the relay server of the chat when all the c
 Each client will wait for this message after establishing a connection with the server.
 
 This message contains 2 INTEGERS: USERS and TURNS_TO_WRITE
-USERS: 			The number of users in the chat
+USERS: 			    The number of users in the chat
 TURNS_TO_WRITE: The number of turns that the client has to wait before he can write ( 0 ... USERS-1 )
 
 Example: A chat of 5 user, and the client will be first to write
