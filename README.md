@@ -7,9 +7,9 @@ The maximum number of clients of the chat has to be specified in the code.
 Each client has a turn to write, and another to read the other's clients messages. Each client can quit the chat sending the message `QUIT` when is his turn.
 
 ## Personalizations
-* **Max message length**: in both `client.c` and `server.c` edit the line `#define MAXLINE 512` and set your preferred value. (Make sure that they're the same value!)
+* **Max message length**: in both `client.c` and `server.c` edit the line `#define MAXLINE 512` and set your preferred value. (Make sure that both are setted to the same value)
 * **Max users per chat**: in `server.c` edit the line `#define MAXUSERS 3` and set your preferred value.
-* **Color of the messages**: in `client.c` there's a set of colors predefined:
+* **Color of the messages**: in `client.c` there's a set of predefined colors :
 ```c
 #define ANSI_COLOR_RED     "\x1b[91m"
 #define ANSI_COLOR_GREEN   "\x1b[92m"
